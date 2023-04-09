@@ -31,6 +31,12 @@ SeekMaxAF is based on MVVM architecture and a repository pattern.
 
 Huge credits to __[skydoves](https://github.com/skydoves)__ for his nice template of Readme!
 
+## Getting Started
+- go to backend folder
+- run command `docker-compose up -d` in Terminal
+- edit server URL, located in `app/src/main/java/com/example/seek_max/hilt/ApiModule.kt`
+- run and install the app
+
 # License
 ```xml
 Designed and developed by afarhan39 (Amir Farhan), 2023
