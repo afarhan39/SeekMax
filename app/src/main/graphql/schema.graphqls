@@ -1,0 +1,33 @@
+type SalaryRange {
+  min: Int
+  max: Int
+}
+
+type Job {
+  _id: String
+  positionTitle: String
+  description: String
+  salaryRange: SalaryRange
+  location: Int
+  industry: Int
+  haveIApplied: Boolean
+}
+
+type GetJobsResponse {
+  page: Int
+  size: Int
+  hasNext: Boolean
+  total: Int
+  jobs: [Job]
+}
+
+type Query {
+  active(limit: Int, page: Int): GetJobsResponse
+  job(id: String!): Job
+  jobs(limit: Int, page: Int): GetJobsResponse
+}
+
+type Mutation {
+  auth(username: String!, password: String!): String
+  apply(jobId: String!): Boolean
+}

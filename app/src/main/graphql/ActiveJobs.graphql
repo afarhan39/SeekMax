@@ -1,0 +1,14 @@
+query ActiveJobs($limit: Int, $page: Int) {
+  active(limit: $limit, page: $page) {
+    page
+    size
+    hasNext
+    total
+    jobs {
+      _id
+      positionTitle
+      description
+      haveIApplied
+    }
+  }
+}

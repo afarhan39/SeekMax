@@ -1,0 +1,7 @@
+node_modules
+coverage
+docs
+dist
+jest.config.js
+version.js
+lib/elasticsearch/cdk-stack.ts

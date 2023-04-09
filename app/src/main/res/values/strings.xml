@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Seek-Max</string>
+    <string name="title_activity_job_list">JobListActivity</string>
+
+    <string name="common_error_message">We are unable to process your request at this moment. Please try again later.</string>
+    <string name="socket_time_out_error_message">Connection timed out. Please try again.</string>
+    <string name="no_network_warning">No active internet connection available</string>
+    <string name="result_not_found">Result not found</string>
+    <string name="discover_your_dream_job">Discover your dream job with SeekMax.</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="sign_out_successfully">Sign Out Successfully</string>
+    <string name="are_you_sure_sign_out">Are you sure you want to sign out?</string>
+    <string name="cancel">Cancel</string>
+    <string name="apply_now">Apply Now</string>
+    <string name="job_applied">Job Applied!</string>
+    <string name="better_luck_next_time">Better luck next time!</string>
+</resources>

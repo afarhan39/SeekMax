@@ -1,0 +1,17 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.SeekMax" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/bgBrand</item>
+        <item name="colorOnPrimary">@color/textPrimary</item>
+        <item name="colorAccent">@color/button</item>
+        <item name="colorSecondary">@color/bgSecondary</item>
+        <item name="colorOnSecondary">@color/textSecondary</item>
+        <item name="android:fontFamily">@font/lato_regular</item>
+        <item name="colorButtonNormal">@color/button</item>
+
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/bgBrand</item>
+    </style>
+</resources>
