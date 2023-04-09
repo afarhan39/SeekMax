@@ -53,6 +53,7 @@ class JobListViewModel @Inject constructor(
     }
 
     fun loadNextPage() {
+        isLoading = true
         _page += 1
         getActiveJobList(false)
     }
@@ -63,7 +64,6 @@ class JobListViewModel @Inject constructor(
                 async {
                     if (isShowProgress)
                         _commonEvent.emit(CommonUIEvent.ShowMainProgress)
-                    isLoading = true
                     jobRepository.getActiveJobList(_page).collect {
                         if (it.isSuccess()) {
                             _activeJobsQuery = it.data

@@ -3,7 +3,6 @@ package com.example.seek_max.util
 import androidx.annotation.StringRes
 import com.example.seek_max.R
 import com.example.seek_max.SeekMaxApplication
-import java.io.IOException
 
 data class Resource<out T>(
     val status: Status = Status.LOADING,
@@ -72,9 +71,4 @@ data class Resource<out T>(
 
 enum class Status {
     SUCCESS, ERROR, LOADING
-}
-
-internal class NoDataException : IOException() {
-    override val message: String
-        get() = ""
 }

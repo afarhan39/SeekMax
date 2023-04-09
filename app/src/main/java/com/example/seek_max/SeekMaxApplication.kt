@@ -21,8 +21,4 @@ class SeekMaxApplication : Application() {
     init {
         instance = this
     }
-
-    override fun onCreate() {
-        super.onCreate()
-    }
 }

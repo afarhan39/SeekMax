@@ -53,14 +53,6 @@ fun View.setOnSingleClickListener(onSafeClick: (View) -> Unit) {
     setOnClickListener(safeClickListener)
 }
 
-inline fun <T> tryOrNull(f: () -> T?) =
-    try {
-        f()
-    } catch (error: Exception) {
-        Log.v("SeekMax", error.toString(), error)
-        null
-    }
-
 fun Int?.toRinggitWithDecimal(): String {
     this ?: return ""
     val doubleVal = this.toDouble()
