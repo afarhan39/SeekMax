@@ -6,11 +6,8 @@ SeekMaxAF is a small demo application based on modern Android application tech-s
 </br>
 
 <p align="center">
-<img src="/misc/screenshotFavy.png"/>
+<img src="/misc/screenshotSeekMaxAF.png"/>
 </p>
-
-## Download
-Go to the [Releases](https://github.com/afarhan39/Favy/blob/master/misc/Favy-v1.0(1)-release.apk) to download the latest APK.
 
 ## Tech stack & Open-source libraries
 - Minimum SDK level 24
@@ -27,6 +24,7 @@ Go to the [Releases](https://github.com/afarhan39/Favy/blob/master/misc/Favy-v1.
   - Repository pattern
 - [Glide](https://github.com/bumptech/glide) to load image
 - [Material-Components](https://github.com/material-components/material-components-android) - Material design components like ripple animation, cardView.
+- [Chucker](https://github.com/ChuckerTeam/chucker) inspect HTTP traffic, for debugging
 
 ## Architecture
 SeekMaxAF is based on MVVM architecture and a repository pattern.
@@ -35,7 +33,7 @@ Huge credits to __[skydoves](https://github.com/skydoves)__ for his nice templat
 
 # License
 ```xml
-Designed and developed by 2020 afarhan39 (Amir Farhan)
+Designed and developed by afarhan39 (Amir Farhan), 2023
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
